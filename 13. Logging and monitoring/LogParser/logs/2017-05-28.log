@@ -1,0 +1,27 @@
+INFO 2017-05-28 21:35:36.4642 Загрузка настроек...
+INFO 2017-05-28 21:35:36.4813 Загружены правила:
+INFO 2017-05-28 21:35:36.4843 Правило (маска) .*\.txt$ - директория C:\Users\Public\targetFolder\txt
+INFO 2017-05-28 21:35:36.4843 Правило (маска) .*\.doc$ - директория C:\Users\Public\targetFolder\doc
+INFO 2017-05-28 21:35:36.4843 Правило (маска) .*\.xls$ - директория C:\Users\Public\targetFolder\xls
+INFO 2017-05-28 21:35:36.4843 Директории для наблюдения:
+INFO 2017-05-28 21:35:36.4843 C:\Users\Public\sourceFolder0
+INFO 2017-05-28 21:35:36.4843 C:\Users\Public\sourceFolder1
+INFO 2017-05-28 21:35:36.5013 C:\Users\Public\sourceFolder2
+INFO 2017-05-28 21:35:36.5013 Директория для перемещения файлов по умолчанию: C:\Users\Public\targetFolder\other
+INFO 2017-05-28 21:35:36.5143 Процесс запущен...
+INFO 2017-05-28 21:35:36.5143 Активировано наблюдение за директорией: C:\Users\Public\sourceFolder0
+INFO 2017-05-28 21:35:36.5143 Активировано наблюдение за директорией: C:\Users\Public\sourceFolder1
+INFO 2017-05-28 21:35:36.5349 Активировано наблюдение за директорией: C:\Users\Public\sourceFolder2
+INFO 2017-05-28 21:35:36.5349 Для выхода нажмите Ctrl+C или Ctrl+Brake.
+DEBUG 2017-05-28 21:35:42.8896 Обноружен файл: C:\Users\Public\sourceFolder0\Новый текстовый документ.txt
+DEBUG 2017-05-28 21:35:42.8896 Для файла "Новый текстовый документ.txt" найдено правило...
+DEBUG 2017-05-28 21:35:43.9032 Файл C:\Users\Public\sourceFolder0\Новый текстовый документ.txt перенесен в C:\Users\Public\targetFolder\txt\Новый текстовый документ (14).txt
+DEBUG 2017-05-28 21:35:51.8120 Обноружен файл: C:\Users\Public\sourceFolder0\shot_015.jpg
+WARN 2017-05-28 21:35:51.8120 Для файла "shot_015.jpg" не найдено правило...
+DEBUG 2017-05-28 21:35:52.8199 Файл C:\Users\Public\sourceFolder0\shot_015.jpg перенесен в C:\Users\Public\targetFolder\other\shot_015 (3).jpg
+DEBUG 2017-05-28 21:36:06.1703 Обноружен файл: C:\Users\Public\sourceFolder2\Новый точечный рисунок.bmp
+WARN 2017-05-28 21:36:06.1783 Для файла "Новый точечный рисунок.bmp" не найдено правило...
+DEBUG 2017-05-28 21:36:07.1886 Файл C:\Users\Public\sourceFolder2\Новый точечный рисунок.bmp перенесен в C:\Users\Public\targetFolder\other\Новый точечный рисунок (2).bmp
+DEBUG 2017-05-28 21:36:11.4443 Обноружен файл: C:\Users\Public\sourceFolder2\Лист Microsoft Excel.xlsx
+WARN 2017-05-28 21:36:11.4443 Для файла "Лист Microsoft Excel.xlsx" не найдено правило...
+DEBUG 2017-05-28 21:36:12.4525 Файл C:\Users\Public\sourceFolder2\Лист Microsoft Excel.xlsx перенесен в C:\Users\Public\targetFolder\other\Лист Microsoft Excel (1).xlsx

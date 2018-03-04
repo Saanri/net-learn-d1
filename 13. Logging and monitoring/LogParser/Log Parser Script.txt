@@ -1,0 +1,5 @@
+-- Общий отчет по кол-ву типов сообщений
+LogParser.exe "SELECT substr(text,0,index_of(text,' ')) as msg_type, count(*) as count INTO reportByMsgType.txt FROM D:\MVSProjects\FileSorter\FileSorter\bin\Debug\logs\*.log GROUP BY msg_type"
+
+-- Отчет по всем Warn-ам
+LogParser.exe "SELECT text INTO reportByWarn.txt FROM D:\MVSProjects\FileSorter\FileSorter\bin\Debug\logs\*.log WHERE substr(text,0,index_of(text,' ')) = 'WARN'"

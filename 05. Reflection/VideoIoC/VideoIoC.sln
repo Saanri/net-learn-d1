@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoIoC", "VideoIoC\VideoIoC.csproj", "{29AC6F41-95E6-421F-881C-433433B2DB09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoIoC.Tests", "VideoIoC.Tests\VideoIoC.Tests.csproj", "{634ADC8B-DE31-4D54-98E4-18B54B8F4901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoConsole", "VideoConsole\VideoConsole.csproj", "{82B7268A-6AE8-4491-AF46-7D3058AEBE77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoLib", "VideoLib\VideoLib.csproj", "{9F7CF61A-1465-41E8-A237-8D8256D475AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29AC6F41-95E6-421F-881C-433433B2DB09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29AC6F41-95E6-421F-881C-433433B2DB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29AC6F41-95E6-421F-881C-433433B2DB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29AC6F41-95E6-421F-881C-433433B2DB09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634ADC8B-DE31-4D54-98E4-18B54B8F4901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634ADC8B-DE31-4D54-98E4-18B54B8F4901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634ADC8B-DE31-4D54-98E4-18B54B8F4901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634ADC8B-DE31-4D54-98E4-18B54B8F4901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B7268A-6AE8-4491-AF46-7D3058AEBE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B7268A-6AE8-4491-AF46-7D3058AEBE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B7268A-6AE8-4491-AF46-7D3058AEBE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B7268A-6AE8-4491-AF46-7D3058AEBE77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7CF61A-1465-41E8-A237-8D8256D475AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7CF61A-1465-41E8-A237-8D8256D475AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7CF61A-1465-41E8-A237-8D8256D475AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7CF61A-1465-41E8-A237-8D8256D475AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+msg_type count 
+-------- -----
+INFO     15
+DEBUG    9
+WARN     3

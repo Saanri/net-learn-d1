@@ -1,0 +1,41 @@
+1.	Добавьте следующие книги (название, автор, количество экземпляров, жанр, год издания):
+	•	Hobbit, Tolkien, 5, fantasy, 2014
+	•	Lord of the rings, Tolkien, 3, fantasy, 2015
+	•	Kolobok, 10, kids, 2000
+	•	Repka, 11, kids, 2000
+	•	Dyadya Stiopa, Mihalkov, 1, kids, 2001
+		db.books.save( { name: "Hobbit", author: "Tolkien", count: 5, genre: "fantasy", year: 2014} )
+		db.books.save( { name: "Lord of the rings", author: "Tolkien", count: 3, genre: "fantasy", year: 2015} )
+		db.books.save( { name: "Kolobok", count: 10, genre: "kids", year: 2000} );
+		db.books.save( { name: "Repka", count: 11, genre: "kids", year: 2000} );
+		db.books.save( { name: "Dyadya Stiopa", count: 1, genre: "kids", year: 2001} );
+
+2.	Найдите книги с количеством экземпляров больше единицы.
+	a.	Покажите в результате только название книги.
+	b.	Отсортируйте книги по названию.
+	c.	Ограничьте количество возвращаемых книг тремя.
+	d.	Подсчитайте количество таких книг.
+		db.books.find( {count: {$gte: 2}}, {name: 1, _id: 0}).sort({name: 1}).limit(3);
+		db.books.find( {count: {$gte: 2}}).count();
+
+3.	Найдите книгу с макимальным/минимальным количеством (count).
+	db.books.find().sort({count: 1}).limit(1)
+	db.books.find().sort({count: -1}).limit(1)
+
+4.	Найдите список авторов (каждый автор должен быть в списке один раз).
+	db.books.distinct("author")
+
+5.	Выберите книги без авторов.
+	db.books.find({author: null});
+
+6.	Увеличьте количество экземпляров каждой книги на единицу.
+	db.books.update({}, {$inc: {count: 1}}, false, true);
+
+7.	Добавьте дополнительный жанр “favority” всем книгам с жанром “fantasy” (последующие запуски запроса не должны дублировать жанр “favority”).
+	db.books.update({genre: "fantasy"}, {$set: {genre: "fantasy, favority"}}, false, true);
+
+8.	Удалите книги с количеством экземпляров меньше трех.
+	db.books.remove( { count : {$lte: 2} } );
+
+9.	Удалите все книги.
+	db.books.remove();

@@ -1,0 +1,13 @@
+02.04.2017 17:54:47	This log contains information about the import operation of the script 'instnwnd_1.1.sql' into project 'Northwind' on computer 'MAINFRAME' by user'Saanri.
+02.04.2017 17:54:47	Started importing file: D:\MVSProjects\1111\1.1\Northwind\Northwind\Scripts\instnwnd_1.1.sql 
+02.04.2017 17:54:47	File name D:\MVSProjects\1111\1.1\Northwind\Northwind\Scripts\instnwnd_1.1.sql (size: 729)
+02.04.2017 17:54:47	Parsing import script
+02.04.2017 17:54:47	Total number of batches in script: 6
+02.04.2017 17:54:47	Total number of statements in script: 1
+02.04.2017 17:54:47	The script was successfully imported into the project.
+02.04.2017 17:54:47	Analyzing schema objects...
+02.04.2017 17:54:47	Scanning project for duplicate elements
+02.04.2017 17:54:47	Finished duplicate element processing
+02.04.2017 17:54:47	In the script that you provided to the import operation, one or more statements were not fully understood. These statements were moved to the ScriptsIgnoredOnImport.sql file. Review the file contents for additional information.
+02.04.2017 17:54:47	A summary of the import was saved to the following location: D:\MVSProjects\1111\1.1\Northwind\Northwind\Import Script Logs\instnwnd_1_1_sql_20170402015447.log
+02.04.2017 17:54:47	Click Finish to continue...

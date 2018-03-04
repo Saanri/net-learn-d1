@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindDAL", "NorthwindDAL\NorthwindDAL.csproj", "{F204B4C4-64A4-40EA-A642-E438B1B23C40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindDAL.Tests", "NorthwindDAL.Tests\NorthwindDAL.Tests.csproj", "{5DA0D427-9B1D-40B6-B1D5-408FA6DD8DE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F204B4C4-64A4-40EA-A642-E438B1B23C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F204B4C4-64A4-40EA-A642-E438B1B23C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F204B4C4-64A4-40EA-A642-E438B1B23C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F204B4C4-64A4-40EA-A642-E438B1B23C40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA0D427-9B1D-40B6-B1D5-408FA6DD8DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA0D427-9B1D-40B6-B1D5-408FA6DD8DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA0D427-9B1D-40B6-B1D5-408FA6DD8DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA0D427-9B1D-40B6-B1D5-408FA6DD8DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
